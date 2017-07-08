@@ -163,6 +163,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     OnePlusGallery \
     OnePlusCamera \
+	camera.msm8996 \
     libcamera_shim
 
 # Connectivity Engine support (CNE)
