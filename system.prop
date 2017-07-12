@@ -39,6 +39,14 @@ persist.camera.imglib.fddsp=1
 persist.camera.llc=1
 persist.camera.llnoise=1
 
+# Increase camera's photo and video recording quality
+ro.media.dec.aud.wma.enabled=1
+ro.media.enc.jpeg.quality=100
+ro.media.dec.vid.wmv.enabled=1
+
+#force HAL1 for some apps
+camera.hal1.packagelist=org.codeaurora.snapcam,com.snapchat.android,com.oneplus.camera
+
 # Display power reduction (FOSS)
 ro.qcom.dpps.sensortype=3
 ro.qualcomm.display.paneltype=1
